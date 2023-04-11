@@ -41,59 +41,59 @@ ALTER TABLE siswa ADD COLUMN phone varchar(15) after alamat;
 ```
 ALTER TABLE siswa MODIFY COLUMN id VARCHAR(11);
 ```
-![Gambar1](Gambar/barbar7.png)
+![Gambar1](gambar/barbar7.png)
 
 
 7. Ubah nama kolom phone menjadi hp (varchar 20)!
 ```
 ALTER TABLE siswa CHANGE COLUMN phone hp varchar(20);
 ```
-![Gambar1](Gambar/barbar8.png)
+![Gambar1](gambar/barbar8.png)
 
 8. Tambahkan kolom email setelah kolom hp
 ```
 ALTER TABLE siswa ADD COLUMN email text after hp;
 ```
-![Gambar1](Gambar/barbar9.png)
+![Gambar1](gambar/barbar9.png)
 
 
 9. Hapus kolom keterangan dari tabel!
 ```
 alter table siswa drop keterangan;
 ```
-![Gambar1](Gambar/barbar10.png)
+![Gambar1](gambar/barbar10.png)
 
 
 10. Ganti nama tabel menjadi data_mahasiswa!
 ```
 alter table siswa rename data_mahasiswa;
 ```
-![Gambar1](Gambar/barbar11.png)
+![Gambar1](gambar/barbar11.png)
 
 11. Ganti nama field id menjadi nim!
 ```
 ALTER TABLE data_mahasiswa CHANGE COLUMN id nim varchar(11);
 ```
-![Gambar1](Gambar/barbar12.png)
+![Gambar1](gambar/barbar12.png)
 
 
 12. Jadikan nim sebagai PRIMARY KEY!
 ```
 ALTER TABLE data_mahasiswa ADD PRIMARY KEY(nim);
 ```
-![Gambar1](Gambar/barbar13.png)
+![Gambar1](gambar/barbar13.png)
 
 
 13. Jadikan kolom email sebagai UNIQUE KEY
 ```
 ALTER TABLE data_mahasiswa ADD CONSTRAINT email unique KEY(email);
 ```
-![Gambar1](Gambar/barbar14.png)
+![Gambar1](gambar/barbar14.png)
 
 
 14. Hasil akhir
 
-![Gambar1](Gambar/barbar15.png)
+![Gambar1](gambar/barbar15.png)
 
 
 # Evaluasi dan pertanyaan
