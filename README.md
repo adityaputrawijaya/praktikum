@@ -5,15 +5,15 @@
 ``` 
 CREATE DATABASE latihan1;
 ```
-![Gambar](Gambar/barbar1.png)
-![Gambar](Gambar/barbar2.png)
+![Gambar](gambar/barbar1.png)
+![Gambar](gambar/barbar2.png)
 
 2. Buat sebuah tabel dengan nama biodata (nama, alamat) didalam
 database latihan1!
 ```
 CREATE TABLE siswa (nama VARCHAR(100), alamat TEXT);
 ```
-![Gambar](Gambar/barbar3.png)
+![Gambar](gambar/barbar3.png)
 
 
 3. Tambahkan sebuah kolom keterangan (varchar 15), sebagai kolom
@@ -21,20 +21,20 @@ terakhir!
 ```
 ALTER TABLE siswa ADD COLUMN keterangan varchar(15) AFTER alamat;
 ```
-![Gambar1](Gambar/barbar4.png)
+![Gambar1](gambar/barbar4.png)
 
 4. Tambahkan kolom id (int 11) di awal (sebagai kolom pertama)!
 ```
 ALTER TABLE siswa ADD COLUMN id int(11) First;
 ```
-![Gambar1](Gambar/barbar5.png)
+![Gambar1](gambar/barbar5.png)
 
 5. Sisipkan sebuah kolom dengan nama phone (varchar 15) setelah
 kolom alamat!
 ```
 ALTER TABLE siswa ADD COLUMN phone varchar(15) after alamat;
 ```
-![Gambar1](Gambar/barbar6.png)
+![Gambar1](gambar/barbar6.png)
 
 
 6. Ubah tipe data kolom id menjadi char(11)!
