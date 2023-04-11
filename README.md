@@ -5,15 +5,15 @@
 ``` 
 CREATE DATABASE latihan1;
 ```
-![Gambar1](Gambar/barbar1.png)
-![Gambar1](Gambar/barbar2.png)
+![Gambar](Gambar/barbar1.png)
+![Gambar](Gambar/barbar2.png)
 
 2. Buat sebuah tabel dengan nama biodata (nama, alamat) didalam
 database latihan1!
 ```
 CREATE TABLE siswa (nama VARCHAR(100), alamat TEXT);
 ```
-![Gambar1](Gambar/barbar3.png)
+![Gambar](Gambar/barbar3.png)
 
 
 3. Tambahkan sebuah kolom keterangan (varchar 15), sebagai kolom
